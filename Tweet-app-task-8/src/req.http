@@ -1,0 +1,17 @@
+POST http://localhost:3000/user/register-page
+content-type: application/json
+
+{
+    "email":"abc@def.com",
+    "password":"qwerty"
+}
+
+###
+POST http://localhost:3000/user/login-page
+content-type: application/json
+
+{
+    "email":"abc@def.com",
+    "password":"qwerty",
+    "isValid":true
+}
