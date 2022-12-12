@@ -1,0 +1,7 @@
+GET http://localhost:3000/loan/home/details
+
+
+###
+
+
+POST  http://localhost:3000/loan/home
